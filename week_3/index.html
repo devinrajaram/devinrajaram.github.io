@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>CSS Zen Garden</title>
+</head>
+
+<body>
+    <div class="container">
+        <header><a class="logo" href="index.html" title="CSS Zen Garden"><img alt="" src="images/logo.png"></a></header>
+
+        <div class="tabbed">
+            <!-- tab titles -->
+            <ul class="tabber-menu">
+                <li><a class="tabber-handle" href="#tab-1">EFFECTIVE</a></li>
+                <li><a class="tabber-handle" href="#tab-2">INEFFECTIVE</a></li>
+            </ul>
+            
+            <!-- tab content -->
+            <div class="tabber-tab" id="tab-1">
+                <h2>Example #217</h2>
+                <img alt="" src="images/217.png">
+
+                <div class="accordion">
+                    <div class="item">
+                        <div class="heading">Design Elements</div>
+                        <div class="content">
+                            <p>This design, created by well-known and respected designer/developer Elliot Jay Stocks, shows his expertise in the field by coding a simple, yet effective, design for any creative individual.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="heading">Color</div>
+                        <div class="content">
+                            <p>He chose a minimal color palette, which keeps any design simple, compact, and focused. There are light tones of blue, yellow, gray, red, and white, a suitable combination because they are not jarring to the eyes and is very inviting to any visitor. He utilizes a technique currently trending among web designers called flat design. There is no use of shadows or gradients on the website, which used to be used to show depth and style. Instead, he chose a different approach, which was to overlap elements to create this effect.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="heading">Structure &amp; Spacing</div>
+                        <div class="content">
+                            <p>This website showcases an excellent usage of white space, which is empty space around different elements on a page that is used to de-clutter a webpage by giving it breathing room. The design uses lots of padding around the elements, which separates the page evenly and makes it easier to read and look at. Your eyes are everywhere looking for things on the page. Instead, it is being guided by the way the designer structured the page and elements.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="heading">Typography &amp; Hierarchy</div>
+                        <div class="content">
+                            <p>Like any good website design, keeping a minimal choosing of two to three custom fonts is a must. In this case, the designer chose one typeface with various weights to the font. By using the same fonts with different weights, he is able to create a good hierarchy of type on the page, while maintaining good readability. The font style chosen is a sans serif. These are great for this style of modern website design. The logo is a very heavy weight font and draws the user attention to focus on what is being told on the page.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="heading">Markup</div>
+                        <div class="content">
+                            <p>The CSS file of this website is very well structured and laid out. You are first greeted with comments about the design and licenses. Then a simple table of contents to give anyone a sense of where’s what in the file. There are sensible comments that clearly explain some new CSS properties such as box-sizing with links to articles explaining it in greater detail. He used comments to show calculated values of ems to px. This is useful, since not many people can convert ems to px on the fly. There are uses of new CSS elements, one mentioned above being box-sizing, others are browser specific tags like -webkit-font-smoothing:antialiased, transition elements for all browsers, the use of rgba for colors (this gives another level of control that allows for alpha transparency in addition to the rgb color) and percentage based calculations that allows for a fluid design. By using percentages for width, padding, font sizes etc, you are are able to create a responsive website. Elliot then used CSS media queries to increase the percentage of the font size property. As the display size grew in pixels, the font size as well will increase to match the resolution.</p>
+                        </div>
+                    </div>
+                </div> <!-- end accordion -->
+            </div> <!-- end tab 1 -->
+
+            <div class="tabber-tab" id="tab-2">
+                <h2>Example #041</h2>
+                <img alt="" src="images/217.png">
+
+                <div class="accordion">
+                    <div class="item">
+                        <div class="heading">Design Elements</div>
+                        <div class="content">
+                            <p>This design by CSS Zen Garden has proven to be ineffective for several reasons; however, there exists a couple of reasons that doesn’t completely make it unreadable. First, the organization of the content is sectioned off by category (lists for other designs, archives, and a resources section for this website), and second, the actual descriptive content of the website follows one after the other in a traditional top-to-bottom structure.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="heading">Color</div>
+                        <div class="content">
+                            <p>The colors of the website is limited from white to black, with shades of gray for some of the text. The background images are also limited in the same way—which appears to be a window, a blossomed flower, curly braces, and part of a script text. The anchor tags or links are in white, which at first sight, looks as though its bold or for added emphasis. This could be improved by introducing even one single color other than black or white, and it would improve the effectiveness of the site.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="heading">Structure &amp; Spacing</div>
+                        <div class="content">
+                            <p>The sections of the page is very closely nit together and doesn’t provide much breathing room for content. Although previously mentioned effectiveness of how the content is arranged, it still lacks white space to help balance the reading of the content. Taking a deeper look at the CSS of the site, you notice a huge portion of the measuring is done in ems (which means, it will use the browser defaults and have measurements and size relative to that specific browser—proving both pros and cons) as compared to the widely used pixels and points.</p>
+
+                            <p>The page is also fixed in it’s spacing and it does not introduce a responsive aspect to it. If your browser window was smaller, content could be potentially cut off, or vice-versa, the sharp contrast or amount of black background on the right side would throw off the balance of the page even more.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="heading">Texture</div>
+                        <div class="content">
+                            <p>The website overall is hinted with this grunge texture or almost a coffee-spill effect. And, the images also have a lot of noise or grain in them with contribute to the grunge effect.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="heading">Typography &amp; Hierarchy</div>
+                        <div class="content">
+                            <p>The hierarchy on the website is poorly executed, because there is no clear and immediate separation of headings and paragraphs. Again, with the use of ems, the size of the font is based off the browser defaults. To make the separation of content more apparent, one would simply increase the headings (which is an H3 in the HTML) to about double the size, or if they wanted to retain the relative styling, change it to an H2 tag.</p>
+
+                            <p>The body section of the site uses curly braces to, what it appears to be, introduce a new section. But, two sections are without it, and one would think it was meant to be a bullet point or one-step down in the hierarchy.</p>
+
+                            <p>Oddly enough, the CSS uses a standard typeface that should be on most, if not all computers—Georgia (georgia, sans-serif to be specific), but, when inspected with Firebug via Firefox, it renders it as Times, serif. The fall back in the CSS is a sans-serif, but it’s actually falling back to a serif, which seems to be a bug—or it could be the case-sensitive spelling of “georgia” needs to be “Georgia.”</p>
+
+                            <p>There is a small complement of list ornaments for the sidebar, which juxtaposes realism (the flower) and graphic.</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="heading">Markup</div>
+                        <div class="content">
+                            <p>The author of this template gives us a well structured css file with layout and comments. He uses whimsical comments to explain his decisions for using certain css selectors as opposed to others. By using these funny comments in the CSS, it helps anyone looking at it better understand and modify to their needs. Ultimately, this remains to be the one good thing I appreciated about this page.</p>
+                        </div>
+                    </div>
+                </div><!-- end tab 2 -->
+            </div> <!-- end accordion -->
+        </div><!-- end tabbed -->
+        
+    </div><!-- end container-->
+    
+    <!-- Import required javascript files  -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!-- Get jQuery from Google CDN -->
+     <script src="js/jquery.fs.tabber.min.js"></script> <!-- jQuery tabber, which creates the tabs from http://formstone.it/components/tabber -->
+     <script>
+$(document).ready(function() {
+        $(".tabbed").tabber(); //Initiate tabber functions on the class tabbed
+
+        //Script to make accordion work
+        $('.accordion .item .heading').click(function() {
+
+            var a = $(this).closest('.item');
+            var b = $(a).hasClass('open');
+            var c = $(a).closest('.accordion').find('.open');
+
+            if(b != true) {
+                $(c).find('.content').slideUp(200);
+                $(c).removeClass('open');
+            }
+
+            $(a).toggleClass('open');
+            $(a).find('.content').slideToggle(200);
+
+        });
+    });
+    </script>
+</body>
+</html>
