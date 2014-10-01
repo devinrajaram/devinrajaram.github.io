@@ -10,42 +10,42 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     border:0;
     font-size:100%;
     font:inherit;
-    vertical-align:baseline
+    vertical-align:baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
-    display:block
+    display:block;
 }
 
 body {
-    line-height:1
+    line-height:1;
 }
 
 ol,ul {
-    list-style:none
+    list-style:none;
 }
 
 blockquote,q {
-    quotes:none
+    quotes:none;
 }
 
 blockquote:before,blockquote:after,q:before,q:after {
     content:'';
-    content:none
+    content:none;
 }
 
 table {
     border-collapse:collapse;
-    border-spacing:0
+    border-spacing:0;
 }
 
 html {
-    box-sizing:border-box
+    box-sizing:border-box;
 }
 
 *,:before,:after {
-    box-sizing:inherit
+    box-sizing:inherit;
 }
 
 /*===End CSS RESET ===================================================================*/
@@ -56,21 +56,21 @@ body {
     font-size:100%;
     line-height:1.75;
     font-weight:400;
-    color:#585858
+    color:#585858;
 }
 
 .container {
     max-width:1140px;
     margin:0 auto;
-    overflow:auto
+    overflow:auto;
 }
 
 header {
-    width:100%
+    width:100%;
 }
 
 .logo {
-    margin:35px auto
+    margin:35px auto;
 }
 
 h2 {
@@ -79,14 +79,24 @@ h2 {
     font-style:italic;
     color:gray;
     font-weight:400;
-    margin-bottom:20px
+    margin-bottom:20px;
 }
+
+h2 a{
+    font-family:Baskerville,"Baskerville Old Face","Times New Roman",serif;
+    font-size:36px;
+    font-style:italic;
+    color:gray;
+    font-weight:400;
+    margin-bottom:20px;
+}
+
 
 /*======Accordion Styles==================*/
 .accordion {
     width:100%;
     overflow:hidden;
-    margin:30px auto 0
+    margin:30px auto 0;
 }
 
 .accordion .item .heading {
@@ -102,17 +112,17 @@ h2 {
     border-top:1px solid #e1e1e1;
     border-right:1px solid #e1e1e1;
     border-left:1px solid #e1e1e1;
-    box-sizing:border-box
+    box-sizing:border-box;
 }
 
 .accordion .item.open .heading,.accordion .item:last-child .heading,.accordion .item:last-child .content {
-    border-bottom:1px solid #e1e1e1
+    border-bottom:1px solid #e1e1e1;
 }
 
 .accordion .item.open .heading {
     color:#8e8e8e;
     background:#e1e1e1 url(images/arrow.png) no-repeat;
-    background-position:right 20px top -5px
+    background-position:right 20px top -5px;
 }
 
 .accordion .item .content {
@@ -120,22 +130,22 @@ h2 {
     text-align:left;
     padding:20px 15px;
     border-left:1px solid #e1e1e1;
-    border-right:1px solid #e1e1e1
+    border-right:1px solid #e1e1e1;
 }
 
 .accordion .item .content p {
-    margin-bottom:15px
+    margin-bottom:15px;
 }
 
 /*======Tabbed Styles==================*/
 .tabber {
-    overflow:hidden
+    overflow:hidden;
 }
 
 .tabber .tabber-menu {
     display:block;
     margin:0;
-    padding:0
+    padding:0;
 }
 
 .tabber .tabber-menu li {
@@ -144,7 +154,7 @@ h2 {
     width:50%;
     height:45px;
     background:gray;
-    text-align:center
+    text-align:center;
 }
 
 .tabber .tabber-handle {
@@ -155,17 +165,22 @@ h2 {
     background:gray;
     text-decoration:none;
     display:block;
-    letter-spacing:2px
+    letter-spacing:2px;
 }
 
 .tabber .tabber-handle.active {
     color:#fff;
-    background:#a9c318
+    background:#a9c318;
+}
+
+.tabber .tabber-handle.red.active {
+    color:#fff;
+    background:#c92443;
 }
 
 .tabber .tabber-handle.mobile {
     display:none;
-    float:none
+    float:none;
 }
 
 /* Used to hide mobile tabs*/
@@ -173,12 +188,12 @@ h2 {
     clear:both;
     display:none;
     padding:20px 15px;
-    text-align:center
+    text-align:center;
 }
 
 /*Show the stuff inside the active tab */
 .tabber .tabber-tab.active {
-    display:block
+    display:block;
 }
 
 /*======Smartphones (portrait and landscape) ========================*/
@@ -186,7 +201,7 @@ h2 {
 .logo {
     display:block;
     text-align:center;
-    margin:35px auto
+    margin:35px auto;
 }
 }
 
@@ -195,7 +210,7 @@ h2 {
 .logo {
     display:block;
     text-align:center;
-    margin:35px auto
+    margin:35px auto;
 }
 }
 
@@ -203,7 +218,7 @@ h2 {
 @media only screen and (max-width : 1224px) {
 .logo {
     display:block;
-    margin:35px auto
+    margin:35px auto;
 }
 }
 
@@ -211,6 +226,6 @@ h2 {
 @media only screen and (min-width : 1225px) {
 .logo {
     display:block;
-    margin:35px auto
+    margin:35px auto;
 }
 }
